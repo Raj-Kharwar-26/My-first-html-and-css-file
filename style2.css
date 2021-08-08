@@ -1,0 +1,33 @@
+*{
+    padding: 0;/*used to remove default styling of browser*/
+    margin: 0;
+}
+
+body{
+    background-color: black;/*used to change backgroung colour*/
+    color: white;
+}
+
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 3px solid blue;
+    margin: 20px;/*margin is outerspace*/
+    padding: 20px;/*padding is innerspace*/
+    display: flex;/*flex is used to add layout*/
+    flex-wrap: wrap;/*helps to arrange child in parent of size and width*/
+    justify-content: center;/*it helps us to arrange in different directions*/
+    align-items: baseline;/*helps to allign different different element in same ways*/
+}
+.child{
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+    margin: 3px;
+}
+.child2{
+    width: 150px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin: 3px;
+}

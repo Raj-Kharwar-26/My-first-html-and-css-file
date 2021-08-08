@@ -1,0 +1,25 @@
+/*To make responsive css we have to use 'media' in css*/
+
+/* for tab/medium--> 768px
+   for laptop/large--> 1024px
+   for pc/extralarge--> 1256px*/
+   body{
+    background-color: black;/*used to change backgroung colour*/
+    color: white;
+}
+
+@media (min-width : 768px){
+    body{
+        background-color: cornflowerblue;
+    }
+}
+@media (min-width : 1024px){
+    body{
+        background-color: cyan;
+    }
+}
+@media (min-width : 1256px){
+    body{
+        background-color: darkgreen;
+    }
+}

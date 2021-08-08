@@ -1,0 +1,21 @@
+*{
+    padding: 0;/*used to remove default styling of browser*/
+    margin: 0;
+}
+
+body{
+    background-color: yellow;/*used to change backgroung colour*/
+    color: black;
+}
+h1{
+    color: green;
+}
+.webdev{
+    color: red;
+}
+#dev{
+    color: violet;
+}*/
+h2[name="amazingdevs"]{/*to access different attributes and to aplly css on them*/
+    color: yellowgreen;
+}
